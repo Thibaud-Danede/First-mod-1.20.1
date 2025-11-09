@@ -1,4 +1,4 @@
-package net.dayralight.firstuselessmod;
+package net.ravadael.firstuselessmod;
 
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
