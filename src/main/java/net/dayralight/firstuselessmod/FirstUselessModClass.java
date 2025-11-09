@@ -16,7 +16,7 @@ import org.slf4j.Logger;
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(FirstUselessModClass.MOD_ID)
 public class FirstUselessModClass {
-    // Define mod id in a common place for everything to reference
+    // Define mod id in a common place for everything to reference test
     public static final String MOD_ID = "firstuselessmod";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
