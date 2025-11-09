@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "layer0": "firstuselessmod:block/ruby_block"
+    "all": "firstuselessmod:block/ruby_block"
   }
 }

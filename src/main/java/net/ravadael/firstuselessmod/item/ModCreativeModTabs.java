@@ -18,9 +18,14 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RUBY.get()))
                     .title(Component.translatable("creativetab.firstuselessmod_tab"))
                     .displayItems((pParameters, pOutput) -> {
+
+                        //Ajout des items dans menu secondaire
                         pOutput.accept(ModItems.RUBY.get());
                         pOutput.accept(ModItems.RAW_RUBY.get());
+
+                        //Ajout des blocks dans menu secondaire
                         pOutput.accept(ModBlocks.RUBY_BLOCK.get());
+                        pOutput.accept(ModBlocks.RUBY_ORE.get());
                     })
                     .build());
 
