@@ -12,7 +12,9 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.ravadael.firstuselessmod.item.Items;
+import net.ravadael.firstuselessmod.block.ModBlocks;
+import net.ravadael.firstuselessmod.item.ModItems;
+import net.ravadael.firstuselessmod.item.ModCreativeModTabs;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -26,8 +28,14 @@ public class FirstUselessMod {
     public FirstUselessMod(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
 
-        // Register de la classe Items
-        Items.register(modEventBus);
+        //Register de la classe ModCreativeModTabs
+        ModCreativeModTabs.register(modEventBus);
+
+        // Register de la classe ModItems
+        ModItems.register(modEventBus);
+
+        // Register de la classe ModBlocks
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -43,10 +51,7 @@ public class FirstUselessMod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(Items.RUBY);
-            event.accept(Items.RAW_RUBY);
-        }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
