@@ -45,6 +45,7 @@ public class FirstUselessMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(Items.RUBY);
+            event.accept(Items.RAW_RUBY);
         }
     }
 
