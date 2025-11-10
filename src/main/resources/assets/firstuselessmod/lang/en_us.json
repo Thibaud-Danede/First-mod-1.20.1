@@ -8,5 +8,8 @@
   "block.firstuselessmod.ruby_ore": "Block of Ruby Ore",
   "block.firstuselessmod.sound_block": "Sound Block",
 
-  "creativetab.firstuselessmod_tab": "Ruby FirstUselessMod Tab"
+  "creativetab.firstuselessmod_tab": "Ruby FirstUselessMod Tab",
+
+  "tooltip.firstuselessmod.metal_detector.tooltip": "Find valuables underground"
+
 }
