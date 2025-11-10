@@ -22,10 +22,11 @@ public class ModCreativeModTabs {
                         //Ajout des items dans menu secondaire
                         pOutput.accept(ModItems.RUBY.get());
                         pOutput.accept(ModItems.RAW_RUBY.get());
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
 
                         //Ajout des blocks dans menu secondaire
                         pOutput.accept(ModBlocks.RUBY_BLOCK.get());
-                        pOutput.accept(ModBlocks.RUBY_ORE.get());
+                        pOutput.accept(ModBlocks.RAW_RUBY.get());
                     })
                     .build());
 
