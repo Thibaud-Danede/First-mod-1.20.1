@@ -18,15 +18,15 @@ public class MetalDetectorItem extends Item {
 
     @Override
     public InteractionResult useOn(UseOnContext pContext) {
-        if(pContext.getLevel().isClientSide()) {
+        if(!pContext.getLevel().isClientSide()) {
             BlockPos positionClicked = pContext.getClickedPos();
             Player player = pContext.getPlayer();
             boolean foundBlock = false;
 
-            for(int i = 0; 1 <= positionClicked.getY() + 64; i++) {
+            for(int i = 0; i <= positionClicked.getY() + 64; i++) {
                 BlockState state = pContext.getLevel().getBlockState(positionClicked.below(i));
 
-                if(isValuableBlock(state)) {
+                if (isValuableBlock(state)) {
                     outputValuableCoordinates(positionClicked.below(i), player, state.getBlock());
                     foundBlock = true;
 
@@ -35,7 +35,7 @@ public class MetalDetectorItem extends Item {
             }
 
             if(!foundBlock) {
-                player.sendSystemMessage(Component.literal("No valuables found"));
+                player.sendSystemMessage(Component.literal("No valuables Found!"));
             }
         }
 
@@ -51,8 +51,6 @@ public class MetalDetectorItem extends Item {
     }
 
     private boolean isValuableBlock(BlockState state) {
-        return state.is(Blocks.IRON_ORE) || state.is(Blocks.DIAMOND_ORE) || state.is(Blocks.GOLD_ORE);
+        return state.is(Blocks.IRON_ORE) || state.is(Blocks.DIAMOND_ORE);
     }
-
-
 }
