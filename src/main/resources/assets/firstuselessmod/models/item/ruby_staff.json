@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "firstuselessmod:item/ruby_staff_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "firstuselessmod:item/ruby_staff_2d"
+    },
+    "ground": {
+      "parent": "firstuselessmod:item/ruby_staff_2d"
+    },
+    "fixed": {
+      "parent": "firstuselessmod:item/ruby_staff_2d"
+    }
+  }
+}
