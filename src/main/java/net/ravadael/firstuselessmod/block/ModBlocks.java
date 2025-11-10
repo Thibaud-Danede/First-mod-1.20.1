@@ -14,6 +14,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.ravadael.firstuselessmod.FirstUselessMod;
+import net.ravadael.firstuselessmod.block.custom.SoundBlock;
 import net.ravadael.firstuselessmod.item.ModItems;
 
 import java.util.function.Supplier;
@@ -26,6 +27,10 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST)));
     public static final RegistryObject<Block> RAW_RUBY = registerBlock("ruby_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).sound(SoundType.AMETHYST)));
+
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)));
+
 
     public static final RegistryObject<Block> RUBY_ORE = registerBlock("ruby_ore_drop",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)

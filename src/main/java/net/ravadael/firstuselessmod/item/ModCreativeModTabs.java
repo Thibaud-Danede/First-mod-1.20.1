@@ -27,6 +27,7 @@ public class ModCreativeModTabs {
                         //Ajout des blocks dans menu secondaire
                         pOutput.accept(ModBlocks.RUBY_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_RUBY.get());
+                        pOutput.accept(ModBlocks.SOUND_BLOCK.get());
                     })
                     .build());
 
