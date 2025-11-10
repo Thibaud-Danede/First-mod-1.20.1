@@ -1,0 +1,4 @@
+// 1.20.1	2025-11-10T13:58:51.3227004	Tags for minecraft:block mod id firstuselessmod
+9b5e4169b970d5cf5d28b7203f7b1d9230c16548 data/firstuselessmod/tags/blocks/metal_detector_valuables.json
+88eda4c4c54c1963246b3397e0c01f86dfae858e data/minecraft/tags/blocks/mineable/pickaxe.json
+9d11f5d32d6e75c180af92bc4d74f0af1c57cb99 data/minecraft/tags/blocks/needs_iron_tool.json

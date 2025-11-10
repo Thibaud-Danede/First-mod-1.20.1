@@ -1,0 +1,5 @@
+// 1.20.1	2025-11-10T13:58:51.323701	Loot Tables
+b037bea1d3002747793e648dc9c5e7a40449d87b data/firstuselessmod/loot_tables/blocks/ruby_block.json
+30aa8eebf8f5f87382056020141e7876a13cac69 data/firstuselessmod/loot_tables/blocks/ruby_ore.json
+58531bce63f05deda661540933bbfd6e7790b1bb data/firstuselessmod/loot_tables/blocks/ruby_ore_drop.json
+e0d9f18a8fc58963c9db78088efd96848a75e293 data/firstuselessmod/loot_tables/blocks/sound_block.json

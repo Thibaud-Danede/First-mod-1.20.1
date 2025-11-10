@@ -1,0 +1,10 @@
+// 1.20.1	2025-11-10T13:58:51.323701	Block States: firstuselessmod
+804b11912b1b8f55bce0cf2db397942564730853 assets/firstuselessmod/blockstates/ruby_block.json
+16c5a9c601023d7311899834a979a045db048bf1 assets/firstuselessmod/blockstates/ruby_ore.json
+76991c9d9c03ed16491e0cf75cd969b507728f75 assets/firstuselessmod/blockstates/sound_block.json
+d3f1b152cc2123280b2b5b3107fb024556049755 assets/firstuselessmod/models/block/ruby_block.json
+71c22aa0619f05df0094a1fffc15e9880c0db346 assets/firstuselessmod/models/block/ruby_ore.json
+82a5195340a798dd8ee4ed32f26efb0a4f85924c assets/firstuselessmod/models/block/sound_block.json
+17476da0bd635f944e3ca3296e47128d1daa68ea assets/firstuselessmod/models/item/ruby_block.json
+f22f3390f040c21fe1243379902f93911b06618f assets/firstuselessmod/models/item/ruby_ore.json
+0fc3b463878382aa0fc25fa480af7e7f19b4b1cf assets/firstuselessmod/models/item/sound_block.json
